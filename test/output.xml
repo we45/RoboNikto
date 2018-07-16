@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180716 13:19:34.315" generator="Robot 3.0.4 (Python 2.7.12 on linux2)">
+<robot generated="20180716 14:32:30.855" generator="Robot 3.0.4 (Python 2.7.12 on linux2)">
 <suite source="/home/umar/Desktop/dev/RoboNikto/test/RoboNikto.robot" id="s1" name="RoboNikto">
 <test id="s1-t1" name="Run Nikto against the target host">
 <kw name="Run Nikto" library="RoboNikto">
@@ -8,12 +8,12 @@
 <arg>${TARGET_PORT}</arg>
 <arg>${EXPORT_REPORT}</arg>
 </arguments>
-<msg timestamp="20180716 13:19:42.918" level="INFO">- Nikto v2.1.6
+<msg timestamp="20180716 14:32:41.345" level="INFO">- Nikto v2.1.6
 ---------------------------------------------------------------------------
 + Target IP:          127.0.0.1
 + Target Hostname:    127.0.0.1
 + Target Port:        80
-+ Start Time:         2018-07-16 13:19:34 (GMT5.5)
++ Start Time:         2018-07-16 14:32:32 (GMT5.5)
 ---------------------------------------------------------------------------
 + Server: Apache/2.4.18 (Ubuntu)
 + The anti-clickjacking X-Frame-Options header is not present.
@@ -30,14 +30,14 @@
 + OSVDB-3233: /icons/README: Apache default file found.
 + /phpmyadmin/: phpMyAdmin directory found
 + 7852 requests: 0 error(s) and 12 item(s) reported on remote host
-+ End Time:           2018-07-16 13:19:42 (GMT5.5) (8 seconds)
++ End Time:           2018-07-16 14:32:41 (GMT5.5) (9 seconds)
 ---------------------------------------------------------------------------
 + 1 host(s) tested</msg>
-<status status="PASS" endtime="20180716 13:19:42.918" starttime="20180716 13:19:34.335"></status>
+<status status="PASS" endtime="20180716 14:32:41.346" starttime="20180716 14:32:31.058"></status>
 </kw>
-<status status="PASS" endtime="20180716 13:19:42.918" critical="yes" starttime="20180716 13:19:34.335"></status>
+<status status="PASS" endtime="20180716 14:32:41.346" critical="yes" starttime="20180716 14:32:31.057"></status>
 </test>
-<status status="PASS" endtime="20180716 13:19:42.919" starttime="20180716 13:19:34.317"></status>
+<status status="PASS" endtime="20180716 14:32:41.346" starttime="20180716 14:32:30.863"></status>
 </suite>
 <statistics>
 <total>
